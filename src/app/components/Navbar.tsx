@@ -4,7 +4,7 @@ import Link from "next/link";
 import { buttonVariants } from "@/app/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
-import { ModeToggle } from "./ModeToggle";
+
 
 const Navbar = async () => {
   const { getUser } = getKindeServerSession();

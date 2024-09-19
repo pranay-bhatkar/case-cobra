@@ -1,4 +1,3 @@
-import Image from "next/image";
 import MaxWidthWrapper from "./components/MaxWidthWrapper";
 import { ArrowRight, Check, Star } from "lucide-react";
 import Phone from "./components/Phone";
